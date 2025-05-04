@@ -1,3 +1,16 @@
+.job-list, .img-list, .list-our-team {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15 px;
+      padding-top: 110px;
+  padding-bottom: 110px;
+ }
+
 body {
   font-family: "Roboto";
   font-size: 15px;
