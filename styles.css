@@ -1,3 +1,9 @@
+.header, .nav-list, .us {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .img-list {
     display: flex;
     justify-content: center;

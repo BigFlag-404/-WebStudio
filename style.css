@@ -1,3 +1,9 @@
+.header, .nav-list, .us {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .job-list, .img-list, .list-our-team {
     display: flex;
     justify-content: space-between;
