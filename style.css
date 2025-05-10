@@ -1,7 +1,18 @@
+header {
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
 .header, .nav-list, .us {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.nav-list:nth-last-child
+{
+margin-right: 50px;
 }
 
 .job-list, .img-list, .list-our-team {
@@ -24,4 +35,8 @@ body {
 
 a {
   text-decoration: none;
+}
+
+header {
+
 }
