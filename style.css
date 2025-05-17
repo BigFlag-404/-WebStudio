@@ -1,18 +1,55 @@
-header {
-  display: flex;
-  padding-top: 25px;
-  padding-bottom: 25px;
+.raleway {
+    font-family: "Raleway", sans-serif;
+    font-weight:bold;
+    margin-right: 93px;
 }
-
-.header, .nav-list, .us {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+.header {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
+.flex {
+    display: flex;
+}
+.logoweb {
+    color:#2196F3;
+}
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.logoweb2 {
+    color:black;
+}
+.header-list {
+    display: flex;
+    margin-right: 344px;
+}
+.h {
+/* Контакти */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
 
-.nav-list:nth-last-child
-{
-margin-right: 50px;
+color: #212121;
+}
+.header-li:not(:last-child) {
+    margin-right: 50px;
+}
+.h:hover{
+    color: #2196F3;
+    cursor: pointer;
+}
+.header-list2 {
+    display: flex;
+    
+}
+.header-li2:not(:last-child) {
+    margin-right: 50px;
 }
 
 .job-list, .img-list, .list-our-team {
@@ -24,8 +61,8 @@ margin-right: 50px;
   width: 1170px;
   margin: 0 auto;
   padding: 0 15 px;
-      padding-top: 110px;
-  padding-bottom: 110px;
+      padding-top: 15px;
+  padding-bottom: 15px;
  }
 
 body {
@@ -35,8 +72,4 @@ body {
 
 a {
   text-decoration: none;
-}
-
-header {
-
 }
