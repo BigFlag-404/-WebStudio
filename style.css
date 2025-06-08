@@ -73,3 +73,44 @@ body {
 a {
   text-decoration: none;
 }
+
+.job-list-li-1::before {
+      content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  background-image: url(./Group\ 1.png);
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+.job-list-li-2::before {
+      content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  background-image: url(./Group\ 2.png);
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+.job-list-li-3::before {
+      content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  background-image: url(./Group\ 3.png);
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+.job-list-li-4::before {
+      content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  margin: 0 auto;
+  background-image: url(./Group\ 4.png);
+  background-size: cover;
+  margin-bottom: 10px;
+}
