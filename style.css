@@ -114,3 +114,7 @@ a {
   background-size: cover;
   margin-bottom: 10px;
 }
+
+.section1 {
+    background-image: url(./Шапка\ \(1\).png);
+}
