@@ -118,3 +118,9 @@ a {
 .section1 {
     background-image: url(./Шапка\ \(1\).png);
 }
+
+.list-our-team-li {
+box-shadow: 0px 3px 2px -1px rgba(131, 131, 131, 0.75);
+-webkit-box-shadow: 0px 3px 2px -1px rgba(131, 131, 131, 0.75);
+-moz-box-shadow: 0px 3px 2px -1px rgba(131, 131, 131, 0.75);
+}

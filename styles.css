@@ -53,8 +53,13 @@ color: #212121;
 }
 
 .img-list {
-    display: flex;
-    justify-content: center;
+    display: grid;
+     grid-template-columns: repeat(3, 370px);
+  grid-template-rows:repeat(3. 404px);
+  grid-auto-rows: 404px;
+  column-gap: 20px;
+  
+  row-gap: 500px;
 }
 
 .container {
@@ -72,4 +77,15 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.img-list-li {
+box-sizing: border-box;
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+
+}
+
+.img-list-li:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
